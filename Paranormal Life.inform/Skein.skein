@@ -4,7 +4,55 @@
     <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
     <item nodeId="node-1934">
         <command xml:space="preserve">Paranormal Life</command>
-        <result xml:space="preserve"></result>
+        <result xml:space="preserve">
+
+
+Paranormal Life
+An Interactive Fiction by Jackie Wu
+Release 1 / Serial number 170214 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+
+Living Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1937"></child>
+        </children>
+    </item>
+    <item nodeId="node-1937">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1938"></child>
+        </children>
+    </item>
+    <item nodeId="node-1938">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1939"></child>
+        </children>
+    </item>
+    <item nodeId="node-1939">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Storage Room
+You can see a key, a rug and a trapdoor here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1940"></child>
+        </children>
+    </item>
+    <item nodeId="node-1940">
+        <command xml:space="preserve">open trapdoor</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
 </Skein>
