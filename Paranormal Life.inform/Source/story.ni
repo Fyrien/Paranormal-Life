@@ -16,22 +16,22 @@ Grandparent'sRoom is south of WestHallway. The printed name of Grandparent'sRoom
 
 Grandparent'sCloset is northwest of Grandparent'sRoom. The printed name of Grandparent'sCloset is "Grandparent's Closet" 
 
-A chest is in Grandparent'sCloset. It is a container. It is locked. The key unlocks the chest.
+A chest is in Grandparent'sCloset. It is a container. It is locked. It is closed and openable. The key unlocks the chest.
 
 A key is in the StorageRoom. 
 
-A trapdoor is in the StorageRoom. trapdoor is a container. It is closed. 
+A trapdoor is in the StorageRoom. trapdoor is a container. It is closed and openable. 
 
 A sword is in the trapdoor. 
 
 A book is in the chest. It is a container. Don't say it is a container. The description of the book is "Pay...ATTENTION...To..THE..INSIDE"
 
-After examining book,
-	if player is holding key2,
-		say "The book is much lighter now."
-After examining book,
-	if player is not holding key2, 
+After examining book:
+	if player is holding key2:
+		say "The book is much lighter now.";
+	otherwise:
 		say "The book feels a little heavy."
+
 		
 A key2 is in the book. A key2 is undescribed. Understand "Door Key" as key2.
 			
@@ -40,12 +40,19 @@ The Wooden Door is north of Jackie'sRoom and south of the backyard. The wooden d
 
 Jackie'sRoom is north of WestHallway. The printed name of Jackie'sRoom is "Jackie's Room"
 
-Wooden door is north of Jackie'sRoom and south of the backyard.
 
-An every turn rule:
-	if player is not holding the sword in backyard:
-		end the story finally.
+every turn rule:
+	if player is in backyard:
+		if sword is held:
+			do nothing;
+		otherwise:
+			move player to livingroom.
 		
+Instead of entering backyard:
+	If sword is held:
+		say "Monster and Aliens fill the area. It's time to fight for your life. Charge on!";
+	if sword is not held:
+		say "You nearly pee your pants seeing the outside filled with monsters. You run back to the living room for safety."
 		
 
 
