@@ -513,6 +513,59 @@ Living Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2266"></child>
+        </children>
+    </item>
+    <item nodeId="node-2266">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2267"></child>
+        </children>
+    </item>
+    <item nodeId="node-2267">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+West Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2268"></child>
+        </children>
+    </item>
+    <item nodeId="node-2268">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2269"></child>
+        </children>
+    </item>
+    <item nodeId="node-2269">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Jackie's Room
+You can see a Wooden Door and a sword here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2270"></child>
+        </children>
+    </item>
+    <item nodeId="node-2270">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+backyard
+You can see a Wooden Door here.
+
+Living Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1938">
         <command xml:space="preserve">n</command>

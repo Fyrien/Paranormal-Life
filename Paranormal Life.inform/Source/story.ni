@@ -47,12 +47,14 @@ every turn rule:
 			do nothing;
 		otherwise:
 			move player to livingroom.
-		
-Instead of entering backyard:
-	If sword is held:
+
+
+	[If sword is held:
 		say "Monster and Aliens fill the area. It's time to fight for your life. Charge on!";
 	if sword is not held:
-		say "You nearly pee your pants seeing the outside filled with monsters. You run back to the living room for safety."
+		say "You nearly pee your pants seeing the outside filled with monsters. You run back to the living room for safety." Code is not working atm will fix soon.]
+		
+
 		
 
 
