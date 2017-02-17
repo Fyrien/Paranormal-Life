@@ -1,5 +1,8 @@
 "Paranormal Life" by Jackie Wu
 
+When play begins:
+	say "You seem to notice some things are out of place so you decide to investigate. You find out that aliens have invaded and have locked you i your house. You need to find a way to get out and stop them! Hint: the second key can be door key or key2."
+	
 LivingRoom is a room. The printed name of LivingRoom is "Living Room"
 
 EastHallway is west of LivingRoom. The printed name of EastHallway is "East Hallway"
@@ -78,6 +81,7 @@ Every turn rule:
 
 Note is in alien's inventory.
 		
+The description of the note is "First you find the power glove. That is the only way to move the things. The second clue is that you need combine things to unlock the door. Lastly, there are 3 keys you need to find in order to progress to get the last key. The three keys that you get from the puzzles will unlock the final passage to the button. The button will stop the aliens from invading and wipe them out."
 
 
 	
