@@ -16,7 +16,7 @@ Grandparent'sRoom is south of WestHallway. The printed name of Grandparent'sRoom
 
 Grandparent'sCloset is northwest of Grandparent'sRoom. The printed name of Grandparent'sCloset is "Grandparent's Closet" 
 
-A chest is in Grandparent'sCloset. It is a container. It is locked. It is closed and openable. The key unlocks the chest. It is fixed in place. 
+A chest is in Grandparent'sCloset. It is a container. It is locked and fixed in place.. It is closed and openable. The key unlocks the chest.
 
 A key is in the StorageRoom. 
 
@@ -49,7 +49,7 @@ After entering the backyard:
 	say "You feel good fighting off aliens and monsters. You manage to make it to a safe place alive. You also manage to find out there's a spaceship nearby. "
 
 
-AlienSpaceship is west of backyard. The printed name of AlienSpaceship is "Alien Spaceship Interior" 
+AlienSpaceshipInterior is west of backyard. The printed name of AlienSpaceship is "Alien Spaceship Interior" 
 
 Power glove is in AlienSpaceshipInterior. It is undescribed. 
 
@@ -58,10 +58,25 @@ AlienKitchen is north of AlienSpaceshipInterior. The printed name of AlienKitche
 a Alien is a male animal in the AlienKitchen. The description of the Alien is "A confused alien muttering to themselves in their language. It seems like they're holding two slices of bread."
 
 After examining alien:
-	say "I don't think that person knows how sandwiches work. They say if you find them a sandwich, he'll give you hints on upcoming puzzles. "
+	say "I don't think that person knows how sandwiches work. They say if you find them a sandwich, he'll give you hints on upcoming puzzles. You realize there was a sandwich hidden in the living room. "
+	
+Sandwich is in livingroom. It is undescribed.
+	
 
-		
+Rule for deciding whether all includes something: it does not.
 
+
+Instead of giving the sandwich to alien: say "You hand the sandwich over to the alien. He makes a weird garble sound. It sounded like he thanked you. He pulls out a note and hands you the note. You feel good about yourself because you helped someone out.";
+remove sandwich from play;
+move note to player.
+
+Every turn rule:
+	if note is held:
+			after examining alien:
+				say "The alien seems to be enjoying the sandwich"
+
+
+Note is in alien's inventory.
 		
 
 

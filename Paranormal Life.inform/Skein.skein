@@ -15,7 +15,8 @@ Living Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1274"></child>
+        <children><child nodeId="node-1597"></child>
+            <child nodeId="node-1274"></child>
         </children>
     </item>
     <item nodeId="node-1274">
@@ -26,6 +27,7 @@ East Hallway
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1329"></child>
+            <child nodeId="node-1604"></child>
             <child nodeId="node-1275"></child>
         </children>
     </item>
@@ -850,6 +852,481 @@ East Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1574"></child>
+        </children>
+    </item>
+    <item nodeId="node-1574">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Kelly's Bedroom
+You can see a desk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1575"></child>
+        </children>
+    </item>
+    <item nodeId="node-1575">
+        <command xml:space="preserve">take desk</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1576"></child>
+        </children>
+    </item>
+    <item nodeId="node-1576">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1577"></child>
+        </children>
+    </item>
+    <item nodeId="node-1577">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Storage Room
+You can see a key and a trapdoor (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1578"></child>
+        </children>
+    </item>
+    <item nodeId="node-1578">
+        <command xml:space="preserve">open trapdoor</command>
+        <result xml:space="preserve">You open the trapdoor, revealing a sword.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1579"></child>
+        </children>
+    </item>
+    <item nodeId="node-1579">
+        <command xml:space="preserve">take sword</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1580"></child>
+        </children>
+    </item>
+    <item nodeId="node-1580">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1581"></child>
+        </children>
+    </item>
+    <item nodeId="node-1581">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1582"></child>
+        </children>
+    </item>
+    <item nodeId="node-1582">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1583"></child>
+        </children>
+    </item>
+    <item nodeId="node-1583">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+West Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1584"></child>
+        </children>
+    </item>
+    <item nodeId="node-1584">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Jackie's Room
+You can see a Wooden Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1585"></child>
+        </children>
+    </item>
+    <item nodeId="node-1585">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening the Wooden Door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1586"></child>
+        </children>
+    </item>
+    <item nodeId="node-1586">
+        <command xml:space="preserve">open the door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1587"></child>
+        </children>
+    </item>
+    <item nodeId="node-1587">
+        <command xml:space="preserve">unlock wooden door with key2</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1588"></child>
+        </children>
+    </item>
+    <item nodeId="node-1588">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a sword
+  a chest (closed and locked)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1589"></child>
+        </children>
+    </item>
+    <item nodeId="node-1589">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+West Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1590"></child>
+        </children>
+    </item>
+    <item nodeId="node-1590">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1591"></child>
+        </children>
+    </item>
+    <item nodeId="node-1591">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1592"></child>
+        </children>
+    </item>
+    <item nodeId="node-1592">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Storage Room
+You can see a key and a trapdoor (empty) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1593"></child>
+        </children>
+    </item>
+    <item nodeId="node-1593">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1594"></child>
+        </children>
+    </item>
+    <item nodeId="node-1594">
+        <command xml:space="preserve">open chest</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1595"></child>
+        </children>
+    </item>
+    <item nodeId="node-1595">
+        <command xml:space="preserve">unlock chest</command>
+        <result xml:space="preserve">What do you want to unlock the chest with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1596"></child>
+        </children>
+    </item>
+    <item nodeId="node-1596">
+        <command xml:space="preserve">unlock chest with key</command>
+        <result xml:space="preserve">(first taking the key)
+That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1604">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Storage Room
+You can see a key and a trapdoor (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1605"></child>
+        </children>
+    </item>
+    <item nodeId="node-1605">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1606"></child>
+        </children>
+    </item>
+    <item nodeId="node-1606">
+        <command xml:space="preserve">take trapdoor</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1607"></child>
+        </children>
+    </item>
+    <item nodeId="node-1607">
+        <command xml:space="preserve">open trapdoor</command>
+        <result xml:space="preserve">You open the trapdoor, revealing a sword.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1608"></child>
+        </children>
+    </item>
+    <item nodeId="node-1608">
+        <command xml:space="preserve">take sword</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1609"></child>
+        </children>
+    </item>
+    <item nodeId="node-1609">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1610"></child>
+        </children>
+    </item>
+    <item nodeId="node-1610">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+West Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1611"></child>
+        </children>
+    </item>
+    <item nodeId="node-1611">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Grandparent's Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1612"></child>
+        </children>
+    </item>
+    <item nodeId="node-1612">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1613"></child>
+        </children>
+    </item>
+    <item nodeId="node-1613">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Grandparent's Closet
+You can see a chest (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1614"></child>
+        </children>
+    </item>
+    <item nodeId="node-1614">
+        <command xml:space="preserve">take chest</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1615"></child>
+        </children>
+    </item>
+    <item nodeId="node-1615">
+        <command xml:space="preserve">unlock chest with key</command>
+        <result xml:space="preserve">You unlock the chest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1616"></child>
+        </children>
+    </item>
+    <item nodeId="node-1616">
+        <command xml:space="preserve">open chest</command>
+        <result xml:space="preserve">You open the chest, revealing a book.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1617"></child>
+        </children>
+    </item>
+    <item nodeId="node-1617">
+        <command xml:space="preserve">x book</command>
+        <result xml:space="preserve">Pay...ATTENTION...To..THE..INSIDE
+
+The book feels a little heavy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1618"></child>
+        </children>
+    </item>
+    <item nodeId="node-1618">
+        <command xml:space="preserve">take key2</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1619"></child>
+        </children>
+    </item>
+    <item nodeId="node-1619">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1620"></child>
+        </children>
+    </item>
+    <item nodeId="node-1620">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Grandparent's Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1621"></child>
+        </children>
+    </item>
+    <item nodeId="node-1621">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+West Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1622"></child>
+        </children>
+    </item>
+    <item nodeId="node-1622">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Jackie's Room
+You can see a Wooden Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1623"></child>
+        </children>
+    </item>
+    <item nodeId="node-1623">
+        <command xml:space="preserve">unlock wooden door with key2</command>
+        <result xml:space="preserve">You unlock the Wooden Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1624"></child>
+        </children>
+    </item>
+    <item nodeId="node-1624">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">You open the Wooden Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1625"></child>
+        </children>
+    </item>
+    <item nodeId="node-1625">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+backyard
+You can see a Wooden Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1626"></child>
+        </children>
+    </item>
+    <item nodeId="node-1626">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+AlienSpaceshipInterior
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1627"></child>
+        </children>
+    </item>
+    <item nodeId="node-1627">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1628"></child>
+        </children>
+    </item>
+    <item nodeId="node-1628">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Alien Kitchen.
+You can see an Alien here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1655"></child>
+        </children>
+    </item>
+    <item nodeId="node-1655">
+        <command xml:space="preserve">x alien</command>
+        <result xml:space="preserve">A confused alien muttering to themselves in their language. It seems like they're holding two slices of bread.
+
+I don't think that person knows how sandwiches work. They say if you find them a sandwich, he'll give you hints on upcoming puzzles. You realize there was a sandwich hidden in the living room. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1329">
         <command xml:space="preserve">n</command>
@@ -874,6 +1351,61 @@ You can see a key, a rug and a trapdoor here.
     <item nodeId="node-1331">
         <command xml:space="preserve">open trapdoor</command>
         <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1597">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1598"></child>
+        </children>
+    </item>
+    <item nodeId="node-1598">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1599"></child>
+        </children>
+    </item>
+    <item nodeId="node-1599">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1600"></child>
+        </children>
+    </item>
+    <item nodeId="node-1600">
+        <command xml:space="preserve">ne</command>
+        <result xml:space="preserve">
+Storage Room
+You can see a key and a trapdoor (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1601"></child>
+        </children>
+    </item>
+    <item nodeId="node-1601">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1602"></child>
+        </children>
+    </item>
+    <item nodeId="node-1602">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">That's fixed in place.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
