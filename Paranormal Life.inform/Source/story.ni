@@ -16,11 +16,11 @@ Grandparent'sRoom is south of WestHallway. The printed name of Grandparent'sRoom
 
 Grandparent'sCloset is northwest of Grandparent'sRoom. The printed name of Grandparent'sCloset is "Grandparent's Closet" 
 
-A chest is in Grandparent'sCloset. It is a container. It is locked. It is closed and openable. The key unlocks the chest.
+A chest is in Grandparent'sCloset. It is a container. It is locked. It is closed and openable. The key unlocks the chest. It is fixed in place. 
 
 A key is in the StorageRoom. 
 
-A trapdoor is in the StorageRoom. trapdoor is a container. It is closed and openable. 
+A trapdoor is in the StorageRoom. trapdoor is a container. It is closed and openable. It is fixed in place. 
 
 A sword is in the trapdoor. 
 
@@ -41,18 +41,25 @@ The Wooden Door is north of Jackie'sRoom and south of the backyard. The wooden d
 Jackie'sRoom is north of WestHallway. The printed name of Jackie'sRoom is "Jackie's Room"
 
 
-every turn rule:
-	if player is in backyard:
-		if sword is held:
-			do nothing;
-		otherwise:
-			move player to livingroom.
+Instead of going to backyard when the player does not have sword:
+		move player to livingroom;
+		say "You feel scared without a weapon. You head back to the living room."
+		
+After entering the backyard:
+	say "You feel good fighting off aliens and monsters. You manage to make it to a safe place alive. You also manage to find out there's a spaceship nearby. "
 
 
-	[If sword is held:
-		say "Monster and Aliens fill the area. It's time to fight for your life. Charge on!";
-	if sword is not held:
-		say "You nearly pee your pants seeing the outside filled with monsters. You run back to the living room for safety." Code is not working atm will fix soon.]
+AlienSpaceship is west of backyard. The printed name of AlienSpaceship is "Alien Spaceship Interior" 
+
+Power glove is in AlienSpaceshipInterior. It is undescribed. 
+
+AlienKitchen is north of AlienSpaceshipInterior. The printed name of AlienKitchen is "Alien Kitchen." 
+
+a Alien is a male animal in the AlienKitchen. The description of the Alien is "A confused alien muttering to themselves in their language. It seems like they're holding two slices of bread."
+
+After examining alien:
+	say "I don't think that person knows how sandwiches work. They say if you find them a sandwich, he'll give you hints on upcoming puzzles. "
+
 		
 
 		

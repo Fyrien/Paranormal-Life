@@ -1,44 +1,44 @@
 <?xml version="1.0"?>
 
-<Skein rootNode="node-1934">
+<Skein rootNode="node-1273">
     <generator>Inform Mac Client (Inform version 1.64/6.33/6M62)</generator>
-    <item nodeId="node-1934">
+    <item nodeId="node-1273">
         <command xml:space="preserve">Paranormal Life</command>
         <result xml:space="preserve">
 
 
 Paranormal Life
 An Interactive Fiction by Jackie Wu
-Release 1 / Serial number 170214 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170216 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Living Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1937"></child>
+        <children><child nodeId="node-1274"></child>
         </children>
     </item>
-    <item nodeId="node-1937">
+    <item nodeId="node-1274">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 East Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1938"></child>
-            <child nodeId="node-1943"></child>
+        <children><child nodeId="node-1329"></child>
+            <child nodeId="node-1275"></child>
         </children>
     </item>
-    <item nodeId="node-1943">
+    <item nodeId="node-1275">
         <command xml:space="preserve">nw</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1944"></child>
+        <children><child nodeId="node-1276"></child>
         </children>
     </item>
-    <item nodeId="node-1944">
+    <item nodeId="node-1276">
         <command xml:space="preserve">ne</command>
         <result xml:space="preserve">
 Storage Room
@@ -46,67 +46,68 @@ You can see a key and a trapdoor (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1945"></child>
+        <children><child nodeId="node-1337"></child>
+            <child nodeId="node-1277"></child>
         </children>
     </item>
-    <item nodeId="node-1945">
+    <item nodeId="node-1277">
         <command xml:space="preserve">take key</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1946"></child>
+        <children><child nodeId="node-1278"></child>
         </children>
     </item>
-    <item nodeId="node-1946">
+    <item nodeId="node-1278">
         <command xml:space="preserve">open trapdoor</command>
         <result xml:space="preserve">You open the trapdoor, revealing a sword.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1947"></child>
+        <children><child nodeId="node-1279"></child>
         </children>
     </item>
-    <item nodeId="node-1947">
+    <item nodeId="node-1279">
         <command xml:space="preserve">take sword</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1960"></child>
+        <children><child nodeId="node-1280"></child>
         </children>
     </item>
-    <item nodeId="node-1960">
+    <item nodeId="node-1280">
         <command xml:space="preserve">sw</command>
         <result xml:space="preserve">
 East Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1961"></child>
+        <children><child nodeId="node-1281"></child>
         </children>
     </item>
-    <item nodeId="node-1961">
+    <item nodeId="node-1281">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 West Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1962"></child>
+        <children><child nodeId="node-1282"></child>
         </children>
     </item>
-    <item nodeId="node-1962">
+    <item nodeId="node-1282">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Grandparent's Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1963"></child>
+        <children><child nodeId="node-1283"></child>
         </children>
     </item>
-    <item nodeId="node-1963">
+    <item nodeId="node-1283">
         <command xml:space="preserve">nw</command>
         <result xml:space="preserve">
 Grandparent's Closet
@@ -114,37 +115,37 @@ You can see a chest (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1964"></child>
+        <children><child nodeId="node-1284"></child>
         </children>
     </item>
-    <item nodeId="node-1964">
+    <item nodeId="node-1284">
         <command xml:space="preserve">unlock chest</command>
         <result xml:space="preserve">What do you want to unlock the chest with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1965"></child>
+        <children><child nodeId="node-1285"></child>
         </children>
     </item>
-    <item nodeId="node-1965">
+    <item nodeId="node-1285">
         <command xml:space="preserve">unlock chest with key</command>
         <result xml:space="preserve">You unlock the chest.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1966"></child>
+        <children><child nodeId="node-1286"></child>
         </children>
     </item>
-    <item nodeId="node-1966">
+    <item nodeId="node-1286">
         <command xml:space="preserve">open chest</command>
         <result xml:space="preserve">You open the chest, revealing a book.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1967"></child>
+        <children><child nodeId="node-1287"></child>
         </children>
     </item>
-    <item nodeId="node-1967">
+    <item nodeId="node-1287">
         <command xml:space="preserve">x book</command>
         <result xml:space="preserve">Pay...ATTENTION...To..THE..INSIDE
 
@@ -152,93 +153,93 @@ The book feels a little heavy.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1968"></child>
+        <children><child nodeId="node-1288"></child>
         </children>
     </item>
-    <item nodeId="node-1968">
+    <item nodeId="node-1288">
         <command xml:space="preserve">take key</command>
         <result xml:space="preserve">You already have that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1969"></child>
+        <children><child nodeId="node-1289"></child>
         </children>
     </item>
-    <item nodeId="node-1969">
+    <item nodeId="node-1289">
         <command xml:space="preserve">take door key</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1970"></child>
+        <children><child nodeId="node-1290"></child>
         </children>
     </item>
-    <item nodeId="node-1970">
+    <item nodeId="node-1290">
         <command xml:space="preserve">leave</command>
         <result xml:space="preserve">But you aren't in anything at the moment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1971"></child>
+        <children><child nodeId="node-1291"></child>
         </children>
     </item>
-    <item nodeId="node-1971">
+    <item nodeId="node-1291">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1972"></child>
+        <children><child nodeId="node-1292"></child>
         </children>
     </item>
-    <item nodeId="node-1972">
+    <item nodeId="node-1292">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1973"></child>
+        <children><child nodeId="node-1293"></child>
         </children>
     </item>
-    <item nodeId="node-1973">
+    <item nodeId="node-1293">
         <command xml:space="preserve">nw</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1974"></child>
+        <children><child nodeId="node-1294"></child>
         </children>
     </item>
-    <item nodeId="node-1974">
+    <item nodeId="node-1294">
         <command xml:space="preserve">sw</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1975"></child>
+        <children><child nodeId="node-1295"></child>
         </children>
     </item>
-    <item nodeId="node-1975">
+    <item nodeId="node-1295">
         <command xml:space="preserve">se</command>
         <result xml:space="preserve">
 Grandparent's Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1976"></child>
+        <children><child nodeId="node-1296"></child>
         </children>
     </item>
-    <item nodeId="node-1976">
+    <item nodeId="node-1296">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 West Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1977"></child>
+        <children><child nodeId="node-1297"></child>
         </children>
     </item>
-    <item nodeId="node-1977">
+    <item nodeId="node-1297">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Jackie's Room
@@ -246,37 +247,37 @@ You can see a Wooden Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1978"></child>
+        <children><child nodeId="node-1298"></child>
         </children>
     </item>
-    <item nodeId="node-1978">
+    <item nodeId="node-1298">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1979"></child>
+        <children><child nodeId="node-1299"></child>
         </children>
     </item>
-    <item nodeId="node-1979">
+    <item nodeId="node-1299">
         <command xml:space="preserve">unlock door</command>
         <result xml:space="preserve">What do you want to unlock the Wooden Door with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1980"></child>
+        <children><child nodeId="node-1300"></child>
         </children>
     </item>
-    <item nodeId="node-1980">
+    <item nodeId="node-1300">
         <command xml:space="preserve">unlock door with door key</command>
         <result xml:space="preserve">You unlock the Wooden Door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1981"></child>
+        <children><child nodeId="node-1301"></child>
         </children>
     </item>
-    <item nodeId="node-1981">
+    <item nodeId="node-1301">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">(first opening the Wooden Door)
 
@@ -285,46 +286,46 @@ You can see a Wooden Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1982"></child>
+        <children><child nodeId="node-1302"></child>
         </children>
     </item>
-    <item nodeId="node-1982">
+    <item nodeId="node-1302">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1983"></child>
+        <children><child nodeId="node-1303"></child>
         </children>
     </item>
-    <item nodeId="node-1983">
+    <item nodeId="node-1303">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1984"></child>
+        <children><child nodeId="node-1304"></child>
         </children>
     </item>
-    <item nodeId="node-1984">
+    <item nodeId="node-1304">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1985"></child>
+        <children><child nodeId="node-1305"></child>
         </children>
     </item>
-    <item nodeId="node-1985">
+    <item nodeId="node-1305">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1986"></child>
+        <children><child nodeId="node-1306"></child>
         </children>
     </item>
-    <item nodeId="node-1986">
+    <item nodeId="node-1306">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Jackie's Room
@@ -332,10 +333,10 @@ You can see a Wooden Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1987"></child>
+        <children><child nodeId="node-1307"></child>
         </children>
     </item>
-    <item nodeId="node-1987">
+    <item nodeId="node-1307">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 backyard
@@ -343,10 +344,10 @@ You can see a Wooden Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2022"></child>
+        <children><child nodeId="node-1308"></child>
         </children>
     </item>
-    <item nodeId="node-2022">
+    <item nodeId="node-1308">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Jackie's Room
@@ -354,10 +355,10 @@ You can see a Wooden Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2023"></child>
+        <children><child nodeId="node-1309"></child>
         </children>
     </item>
-    <item nodeId="node-2023">
+    <item nodeId="node-1309">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 backyard
@@ -365,19 +366,19 @@ You can see a Wooden Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2024"></child>
+        <children><child nodeId="node-1310"></child>
         </children>
     </item>
-    <item nodeId="node-2024">
+    <item nodeId="node-1310">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2025"></child>
+        <children><child nodeId="node-1311"></child>
         </children>
     </item>
-    <item nodeId="node-2025">
+    <item nodeId="node-1311">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Jackie's Room
@@ -385,19 +386,19 @@ You can see a Wooden Door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2026"></child>
+        <children><child nodeId="node-1312"></child>
         </children>
     </item>
-    <item nodeId="node-2026">
+    <item nodeId="node-1312">
         <command xml:space="preserve">drop sword</command>
         <result xml:space="preserve">Dropped.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2027"></child>
+        <children><child nodeId="node-1313"></child>
         </children>
     </item>
-    <item nodeId="node-2027">
+    <item nodeId="node-1313">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 backyard
@@ -407,30 +408,30 @@ Living Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2068"></child>
+        <children><child nodeId="node-1314"></child>
         </children>
     </item>
-    <item nodeId="node-2068">
+    <item nodeId="node-1314">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 East Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2069"></child>
+        <children><child nodeId="node-1315"></child>
         </children>
     </item>
-    <item nodeId="node-2069">
+    <item nodeId="node-1315">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 West Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2070"></child>
+        <children><child nodeId="node-1316"></child>
         </children>
     </item>
-    <item nodeId="node-2070">
+    <item nodeId="node-1316">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Jackie's Room
@@ -438,10 +439,10 @@ You can see a Wooden Door and a sword here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2071"></child>
+        <children><child nodeId="node-1317"></child>
         </children>
     </item>
-    <item nodeId="node-2071">
+    <item nodeId="node-1317">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 backyard
@@ -451,48 +452,48 @@ Living Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2160"></child>
+        <children><child nodeId="node-1318"></child>
         </children>
     </item>
-    <item nodeId="node-2160">
+    <item nodeId="node-1318">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2161"></child>
+        <children><child nodeId="node-1319"></child>
         </children>
     </item>
-    <item nodeId="node-2161">
+    <item nodeId="node-1319">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2162"></child>
+        <children><child nodeId="node-1320"></child>
         </children>
     </item>
-    <item nodeId="node-2162">
+    <item nodeId="node-1320">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 East Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2163"></child>
+        <children><child nodeId="node-1321"></child>
         </children>
     </item>
-    <item nodeId="node-2163">
+    <item nodeId="node-1321">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 West Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2164"></child>
+        <children><child nodeId="node-1322"></child>
         </children>
     </item>
-    <item nodeId="node-2164">
+    <item nodeId="node-1322">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Jackie's Room
@@ -500,10 +501,10 @@ You can see a Wooden Door and a sword here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2165"></child>
+        <children><child nodeId="node-1323"></child>
         </children>
     </item>
-    <item nodeId="node-2165">
+    <item nodeId="node-1323">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 backyard
@@ -513,39 +514,39 @@ Living Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2266"></child>
+        <children><child nodeId="node-1324"></child>
         </children>
     </item>
-    <item nodeId="node-2266">
+    <item nodeId="node-1324">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 East Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2267"></child>
+        <children><child nodeId="node-1325"></child>
         </children>
     </item>
-    <item nodeId="node-2267">
+    <item nodeId="node-1325">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 West Hallway
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2268"></child>
+        <children><child nodeId="node-1326"></child>
         </children>
     </item>
-    <item nodeId="node-2268">
+    <item nodeId="node-1326">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2269"></child>
+        <children><child nodeId="node-1327"></child>
         </children>
     </item>
-    <item nodeId="node-2269">
+    <item nodeId="node-1327">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Jackie's Room
@@ -553,10 +554,10 @@ You can see a Wooden Door and a sword here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-2270"></child>
+        <children><child nodeId="node-1328"></child>
         </children>
     </item>
-    <item nodeId="node-2270">
+    <item nodeId="node-1328">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 backyard
@@ -567,16 +568,299 @@ Living Room
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1938">
+    <item nodeId="node-1337">
+        <command xml:space="preserve">take</command>
+        <result xml:space="preserve">What do you want to take?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1338"></child>
+        </children>
+    </item>
+    <item nodeId="node-1338">
+        <command xml:space="preserve">take all</command>
+        <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1339"></child>
+        </children>
+    </item>
+    <item nodeId="node-1339">
+        <command xml:space="preserve">drop trapdoor</command>
+        <result xml:space="preserve">The trapdoor is already here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1340"></child>
+        </children>
+    </item>
+    <item nodeId="node-1340">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1341"></child>
+        </children>
+    </item>
+    <item nodeId="node-1341">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+West Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1342"></child>
+        </children>
+    </item>
+    <item nodeId="node-1342">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Grandparent's Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1343"></child>
+        </children>
+    </item>
+    <item nodeId="node-1343">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Grandparent's Closet
+You can see a chest (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1344"></child>
+        </children>
+    </item>
+    <item nodeId="node-1344">
+        <command xml:space="preserve">unlock chest</command>
+        <result xml:space="preserve">(with the chest)
+(first taking the chest)
+That doesn't seem to fit the lock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1345"></child>
+        </children>
+    </item>
+    <item nodeId="node-1345">
+        <command xml:space="preserve">open chest</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1346"></child>
+        </children>
+    </item>
+    <item nodeId="node-1346">
+        <command xml:space="preserve">x book</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1347"></child>
+        </children>
+    </item>
+    <item nodeId="node-1347">
+        <command xml:space="preserve">take door key</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1348"></child>
+        </children>
+    </item>
+    <item nodeId="node-1348">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1349"></child>
+        </children>
+    </item>
+    <item nodeId="node-1349">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Grandparent's Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1350"></child>
+        </children>
+    </item>
+    <item nodeId="node-1350">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+West Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1351"></child>
+        </children>
+    </item>
+    <item nodeId="node-1351">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Jackie's Room
+You can see a Wooden Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1352"></child>
+        </children>
+    </item>
+    <item nodeId="node-1352">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1353"></child>
+        </children>
+    </item>
+    <item nodeId="node-1353">
+        <command xml:space="preserve">unlock door</command>
+        <result xml:space="preserve">(with the chest)
+That doesn't seem to fit the lock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1354"></child>
+        </children>
+    </item>
+    <item nodeId="node-1354">
+        <command xml:space="preserve">unlock door with door key</command>
+        <result xml:space="preserve">I only understood you as far as wanting to unlock the Wooden Door with the Wooden Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1355"></child>
+        </children>
+    </item>
+    <item nodeId="node-1355">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">Living Room
+You feel scared without a weapon. You head back to the living room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1356"></child>
+        </children>
+    </item>
+    <item nodeId="node-1356">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1939"></child>
+        <children><child nodeId="node-1357"></child>
         </children>
     </item>
-    <item nodeId="node-1939">
+    <item nodeId="node-1357">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1358"></child>
+        </children>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Kelly's Bedroom
+You can see a desk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1359"></child>
+        </children>
+    </item>
+    <item nodeId="node-1359">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1360"></child>
+        </children>
+    </item>
+    <item nodeId="node-1360">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Kelly's Bedroom
+You can see a desk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1361"></child>
+        </children>
+    </item>
+    <item nodeId="node-1361">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a chest (closed and locked)
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1446"></child>
+        </children>
+    </item>
+    <item nodeId="node-1446">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1476"></child>
+        </children>
+    </item>
+    <item nodeId="node-1476">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Kelly's Bedroom
+You can see a desk (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1477"></child>
+        </children>
+    </item>
+    <item nodeId="node-1477">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+East Hallway
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1509"></child>
+        </children>
+    </item>
+    <item nodeId="node-1509">
+        <command xml:space="preserve">talk to</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1329">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1330"></child>
+        </children>
+    </item>
+    <item nodeId="node-1330">
         <command xml:space="preserve">ne</command>
         <result xml:space="preserve">
 Storage Room
@@ -584,10 +868,10 @@ You can see a key, a rug and a trapdoor here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1940"></child>
+        <children><child nodeId="node-1331"></child>
         </children>
     </item>
-    <item nodeId="node-1940">
+    <item nodeId="node-1331">
         <command xml:space="preserve">open trapdoor</command>
         <result xml:space="preserve">It isn't something you can open.
 
