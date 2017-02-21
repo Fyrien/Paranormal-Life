@@ -83,5 +83,48 @@ Note is in alien's inventory.
 		
 The description of the note is "First you find the power glove. That is the only way to move the things. The second clue is that you need combine things to unlock the door. Lastly, there are 3 keys you need to find in order to progress to get the last key. The three keys that you get from the puzzles will unlock the final passage to the button. The button will stop the aliens from invading and wipe them out."
 
+PowerGloveRoom is west of AlienSpaceshipinterior. The printed name is "Power Glove Room"
+
+The description of the Power Glove is "The power glove surges with strength. You should probably take it."
+
+Library is north of the PowerGloveRoom. 
+
+AlienLivingRoom is northeast of the PowerGloveRoom. The printed name is "Alien Living Room"
+
+AlienLivingQuarters is northwest of the PowerGloveRoom. The printed name is "Alien Living Quarters"
+
+Bookcase is in the Library.
+
+Dining Table is in the AlienLivingRoom.
+
+Bed is in the AlienLivingQuarters. 
+
+Understand "move [something] with [Power Glove]" as moving. moving is an action applying to two things. 
+
+every turn rule:
+	if Bookcase is in AlienLivingRoom:
+		if Dining Table is in AlienLivingQuarters:
+			if Bed is in Library:
+				now Secret Door is described.
+		
+The Secret Door is north of the Library and south of the hiddenroom. Secret door is a door. It is undescribed. 
+
+The description of the bed is "It's seems to be a high tech looking bed. Fancy."
+
+The description of the Bookcase is "There's a lot of books but you can't tell what the language is. Seer rumtauto, yucm'g yug?"
+
+The description of the Dining table is "Pure steel. It seems really heavy. I wonder how cold it can get." 
+
+The description of the sandwich is "The best sandwich you could ever eat. Whole grain and loaded with meats."
+
+The description of the key is "A brass key. It's pretty light."
+
+The description of the door key is "A door key. What more to it?"
+
+The description of the sword is "A long katana like sword. It looks pretty sharp."
+
+The description of the desk is "Very wooden. Very real. Nothing strange here. Move on."
+
+
 
 	

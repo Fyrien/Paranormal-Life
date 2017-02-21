@@ -11,7 +11,7 @@ You seem to notice some things are out of place so you decide to investigate. Yo
 
 Paranormal Life
 An Interactive Fiction by Jackie Wu
-Release 1 / Serial number 170217 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170221 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Living Room
 
@@ -1304,7 +1304,8 @@ AlienSpaceshipInterior
     </item>
     <item nodeId="node-1627">
         <command xml:space="preserve">w</command>
-        <result xml:space="preserve">You can't go that way.
+        <result xml:space="preserve">
+Power Glove Room
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1314,8 +1315,8 @@ AlienSpaceshipInterior
     <item nodeId="node-1628">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
-Alien Kitchen.
-You can see an Alien here.
+Library
+You can see Bookcase here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1324,9 +1325,82 @@ You can see an Alien here.
     </item>
     <item nodeId="node-1655">
         <command xml:space="preserve">x alien</command>
-        <result xml:space="preserve">A confused alien muttering to themselves in their language. It seems like they're holding two slices of bread.
+        <result xml:space="preserve">You can't see any such thing.
 
-I don't think that person knows how sandwiches work. They say if you find them a sandwich, he'll give you hints on upcoming puzzles. You realize there was a sandwich hidden in the living room. 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1710"></child>
+        </children>
+    </item>
+    <item nodeId="node-1710">
+        <command xml:space="preserve">move sandwich to Jackie's Room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1711"></child>
+        </children>
+    </item>
+    <item nodeId="node-1711">
+        <command xml:space="preserve">Move Power Glove to Alien Kitchen</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1712"></child>
+        </children>
+    </item>
+    <item nodeId="node-1712">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Power Glove Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1713"></child>
+        </children>
+    </item>
+    <item nodeId="node-1713">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1714"></child>
+        </children>
+    </item>
+    <item nodeId="node-1714">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1715"></child>
+        </children>
+    </item>
+    <item nodeId="node-1715">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+AlienSpaceshipInterior
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1716"></child>
+        </children>
+    </item>
+    <item nodeId="node-1716">
+        <command xml:space="preserve">move power glove to library</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1717"></child>
+        </children>
+    </item>
+    <item nodeId="node-1717">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">AlienSpaceshipInterior
+
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
