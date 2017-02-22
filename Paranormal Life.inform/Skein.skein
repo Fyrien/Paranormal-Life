@@ -11,7 +11,7 @@ You seem to notice some things are out of place so you decide to investigate. Yo
 
 Paranormal Life
 An Interactive Fiction by Jackie Wu
-Release 1 / Serial number 170221 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Living Room
 
@@ -1306,6 +1306,7 @@ AlienSpaceshipInterior
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Power Glove Room
+You can see Power glove here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1316,7 +1317,7 @@ Power Glove Room
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Library
-You can see Bookcase here.
+You can see a Bookcase here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1354,6 +1355,7 @@ You can see Bookcase here.
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Power Glove Room
+You can see Power glove here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1400,6 +1402,251 @@ AlienSpaceshipInterior
     <item nodeId="node-1717">
         <command xml:space="preserve">look</command>
         <result xml:space="preserve">AlienSpaceshipInterior
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1858"></child>
+        </children>
+    </item>
+    <item nodeId="node-1858">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Power Glove Room
+You can see Power glove here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1859"></child>
+        </children>
+    </item>
+    <item nodeId="node-1859">
+        <command xml:space="preserve">take power glove</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1860"></child>
+        </children>
+    </item>
+    <item nodeId="node-1860">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1861"></child>
+        </children>
+    </item>
+    <item nodeId="node-1861">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+AlienSpaceshipInterior
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1862"></child>
+        </children>
+    </item>
+    <item nodeId="node-1862">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1863"></child>
+        </children>
+    </item>
+    <item nodeId="node-1863">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Power Glove Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1864"></child>
+        </children>
+    </item>
+    <item nodeId="node-1864">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Alien Living Quarters
+You can see a Bed here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1865"></child>
+        </children>
+    </item>
+    <item nodeId="node-1865">
+        <command xml:space="preserve">move bed to library</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1866"></child>
+        </children>
+    </item>
+    <item nodeId="node-1866">
+        <command xml:space="preserve">move bed with power glove</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1911"></child>
+        </children>
+    </item>
+    <item nodeId="node-1911">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1912"></child>
+        </children>
+    </item>
+    <item nodeId="node-1912">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1913"></child>
+        </children>
+    </item>
+    <item nodeId="node-1913">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1914"></child>
+        </children>
+    </item>
+    <item nodeId="node-1914">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Power Glove Room
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1915"></child>
+        </children>
+    </item>
+    <item nodeId="node-1915">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Alien Living Quarters
+You can see a Bed here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1916"></child>
+        </children>
+    </item>
+    <item nodeId="node-1916">
+        <command xml:space="preserve">move bed with power glove</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2170"></child>
+        </children>
+    </item>
+    <item nodeId="node-2170">
+        <command xml:space="preserve">push bed</command>
+        <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2171"></child>
+        </children>
+    </item>
+    <item nodeId="node-2171">
+        <command xml:space="preserve">push bed to Library</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2172"></child>
+        </children>
+    </item>
+    <item nodeId="node-2172">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Alien Living Quarters
+You can see a Bed here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2173"></child>
+        </children>
+    </item>
+    <item nodeId="node-2173">
+        <command xml:space="preserve">push bed to library</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2174"></child>
+        </children>
+    </item>
+    <item nodeId="node-2174">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2230"></child>
+        </children>
+    </item>
+    <item nodeId="node-2230">
+        <command xml:space="preserve">move bed to library</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2287"></child>
+        </children>
+    </item>
+    <item nodeId="node-2287">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Alien Living Quarters
+You can see a Bed here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2288"></child>
+        </children>
+    </item>
+    <item nodeId="node-2288">
+        <command xml:space="preserve">move bed</command>
+        <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2289"></child>
+        </children>
+    </item>
+    <item nodeId="node-2289">
+        <command xml:space="preserve">moving bed</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2290"></child>
+        </children>
+    </item>
+    <item nodeId="node-2290">
+        <command xml:space="preserve">move bed to library</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2351"></child>
+        </children>
+    </item>
+    <item nodeId="node-2351">
+        <command xml:space="preserve">move bed</command>
+        <result xml:space="preserve">Nothing obvious happens.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

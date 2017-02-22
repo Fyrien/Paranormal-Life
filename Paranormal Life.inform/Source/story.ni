@@ -54,7 +54,7 @@ After entering the backyard:
 
 AlienSpaceshipInterior is west of backyard. The printed name of AlienSpaceship is "Alien Spaceship Interior" 
 
-Power glove is in AlienSpaceshipInterior. It is undescribed. 
+Power glove is in PowerGloveRoom. It is a wearable thing. 
 
 AlienKitchen is north of AlienSpaceshipInterior. The printed name of AlienKitchen is "Alien Kitchen." 
 
@@ -93,14 +93,28 @@ AlienLivingRoom is northeast of the PowerGloveRoom. The printed name is "Alien L
 
 AlienLivingQuarters is northwest of the PowerGloveRoom. The printed name is "Alien Living Quarters"
 
-Bookcase is in the Library.
+Furniture is a kind of thing. Bookcase is a kind of furniture. in the library is a bookcase.
 
-Dining Table is in the AlienLivingRoom.
+Dining table is a kind of furniture. in the AlienLivingRoom is a Dining Table.
 
-Bed is in the AlienLivingQuarters. 
+Bed is a kind of furniture. in the AlienLivingQuarters is a bed.
 
-Understand "move [something] with [Power Glove]" as moving. moving is an action applying to two things. 
+[Understand "move [something] to [room]" as moving. moving is an action applying to two things.]
 
+[]
+A thing can be heavy or light. A thing is usually light.
+A thing is usually pushable between rooms.
+
+bed is heavy. Dining table is heavy. Bookcase is heavy.
+
+instead of pushing something to:
+	if the noun is heavy and the player is not wearing Power Glove:
+		say "There's no way you can move that. It looks too heavy.";
+		stop the action;
+	Otherwise:
+		continue the action.[][Thanks to Mrs. Kiang for help on this code]
+		
+	
 every turn rule:
 	if Bookcase is in AlienLivingRoom:
 		if Dining Table is in AlienLivingQuarters:
