@@ -61,7 +61,8 @@ AlienKitchen is north of AlienSpaceshipInterior. The description is "There's a l
 a Alien is a male animal in the AlienKitchen. The description of the Alien is "A confused alien muttering to themselves in their language. It seems like they're holding two slices of bread."
 
 After examining alien:
-	say "I don't think that person knows how sandwiches work. They say if you find them a sandwich, he'll give you hints on upcoming puzzles. You realize there was a sandwich hidden in the living room. "
+	say "I don't think that person knows how sandwiches work. They say if you find them a sandwich, he'll give you hints on upcoming puzzles. There may have been one in the house... ";
+	now sandwich is described.
 	
 Sandwich is in livingroom. It is undescribed.
 	
@@ -69,9 +70,10 @@ Sandwich is in livingroom. It is undescribed.
 Rule for deciding whether all includes something: it does not.
 
 
-Instead of giving the sandwich to alien: say "You hand the sandwich over to the alien. He makes a weird garble sound. It sounded like he thanked you. He pulls out a note and hands you the note. You feel good about yourself because you helped someone out.";
+Instead of giving the sandwich to alien: say "You hand the sandwich over to the alien. He makes a weird garble sound. It sounded like he thanked you. He pulls out a note, and a key, and hands you the note. You feel good about yourself because you helped someone out.";
 remove sandwich from play;
-move note to player.
+move note to player;
+move final key to player.
 
 Every turn rule:
 	if note is held:
@@ -142,13 +144,21 @@ The description of the sword is "A long katana like sword. It looks pretty sharp
 
 The description of the desk is "Very wooden. Very real. Nothing strange here. Move on."
 
-[West, north east, open trapdoor, take sword, take key, south west, west, south, north west, unlock chest with key, open chest, take door key, south east, north, north, unlock wooden door with door key, north, west, west, take power glove, wear power glove, north, push bookcase south, push bookcase ne, push dining table sw, push dining table nw, push bed se, push bed n, open secret door, north,  ]
+[Take sandwich, West, north east, open trapdoor, take sword, take key, south west, west, south, north west, unlock chest with key, open chest, take door key, south east, north, north, unlock wooden door with door key, north, west, west, take power glove, wear power glove, north, open secret door, north, unlock final door with final key ]
 
 
-Final door is north of the hiddenroom and south of the AlienCockpit. It is locked. Final door is a door. 
+Final door is north of the hiddenroom and south of the AlienCockpit. It is locked. Final door is a door. The final key unlocks the Final door.
 
 
 The printed name of Hiddenroom is "Hidden Room"
+
+After entering AlienCockPit:
+	say "You see the switch to stop orders to take over earth. Quickly, you flick the switch. Big red words appear on the glass of the cock pit saying things in an alien language. It's over...";
+	end the story finally.
+
+
+
+
 
 
 
