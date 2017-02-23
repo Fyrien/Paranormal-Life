@@ -83,21 +83,21 @@ Note is in alien's inventory.
 		
 The description of the note is "First you find the power glove. That is the only way to move the things. Then, there is a riddle that you ust figure out to proceed. Figuring this out will unlock the final passage to the button. The button will stop the aliens from invading and wipe them out."
 
-PowerGloveRoom is west of AlienSpaceshipinterior. The printed name is "Power Glove Room"
+PowerGloveRoom is west of AlienSpaceshipinterior. The description is "There's a lot of power gloves but they all seem to be frozen in place. But one of them looks like they aren't." The printed name is "Power Glove Room"
 
 The description of the Power Glove is "The power glove surges with strength. You should probably take it."
 
-Library is north of the PowerGloveRoom. 
+Library is north of the PowerGloveRoom. The description is "Alien books filled the room. There doesn't seem to be anyone here."
 
-AlienLivingRoom is northeast of the PowerGloveRoom. The printed name is "Alien Living Room"
+AlienLivingRoom is northeast of the PowerGloveRoom. The description is "High tech stuff everywhere. I can't tell what everything is." The printed name is "Alien Living Room"
 
-AlienLivingQuarters is northwest of the PowerGloveRoom. The printed name is "Alien Living Quarters"
+AlienLivingQuarters is northwest of the PowerGloveRoom. The description is "Your normal alien living quarters. Very high tech. Even the bed." The printed name is "Alien Living Quarters"
 
-Furniture is a kind of thing. Bookcase is a kind of furniture. in the library is a bookcase.
+Bed is in AlienLivingQuarters. It is a thing. Bed is pushable between rooms.
 
-Dining table is a kind of furniture. in the AlienLivingRoom is a Dining Table.
+Bookcase is in Library. It is a thing. Bookcase is pushable between rooms.
 
-Bed is a kind of furniture. in the AlienLivingQuarters is a bed.
+Dining table is in AlienLivingRoom. It is a thing. Dining table is pushable between rooms.
 
 [Understand "move [something] to [room]" as moving. moving is an action applying to two things.]
 
@@ -107,21 +107,24 @@ A thing is usually pushable between rooms.
 
 bed is heavy. Dining table is heavy. Bookcase is heavy.
 
-instead of pushing something to:
+After going a direction (called way-pushed) with something (called the thing-pushed): 
 	if the noun is heavy and the player is not wearing Power Glove:
 		say "There's no way you can move that. It looks too heavy.";
 		stop the action;
 	Otherwise:
-		continue the action.[][Thanks to Mrs. Kiang for help on this code]
+		 say "You push [the thing-pushed] [way-pushed] to [the location].";
+		 continue the action;
+[][Thanks to Mrs. Kiang for help on this code]
 		
-	
+[the action is 'pushing [something] to' for pushing an object from one room to the next]
+
 every turn rule:
 	if Bookcase is in AlienLivingRoom:
 		if Dining Table is in AlienLivingQuarters:
 			if Bed is in Library:
 				now Secret Door is described.
 		
-The Secret Door is north of the Library and south of the hiddenroom. Secret door is a door. It is undescribed. 
+The Secret Door is north of the Library and south of the Hiddenroom. Secret door is a door. It is undescribed. 
 
 The description of the bed is "It's seems to be a high tech looking bed. Fancy."
 
@@ -139,6 +142,17 @@ The description of the sword is "A long katana like sword. It looks pretty sharp
 
 The description of the desk is "Very wooden. Very real. Nothing strange here. Move on."
 
+[West, north east, open trapdoor, take sword, take key, south west, west, south, north west, unlock chest with key, open chest, take door key, south east, north, north, unlock wooden door with door key, north, west, west, take power glove, wear power glove, north, push bookcase south, push bookcase ne, push dining table sw, push dining table nw, push bed se, push bed n, open secret door, north,  ]
 
 
+Final door is north of the hiddenroom and south of the AlienCockpit. It is locked. Final door is a door. 
+
+
+The printed name of Hiddenroom is "Hidden Room"
+
+
+
+
+
+	
 	

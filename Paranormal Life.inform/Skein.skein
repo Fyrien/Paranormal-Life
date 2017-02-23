@@ -1091,7 +1091,8 @@ You can see a key and a trapdoor (closed) here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1605"></child>
+        <children><child nodeId="node-2537"></child>
+            <child nodeId="node-1605"></child>
         </children>
     </item>
     <item nodeId="node-1605">
@@ -1654,6 +1655,753 @@ You can see a Bed here.
     <item nodeId="node-2351">
         <command xml:space="preserve">move bed</command>
         <result xml:space="preserve">Nothing obvious happens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2537">
+        <command xml:space="preserve">open trapdoor</command>
+        <result xml:space="preserve">You open the trapdoor, revealing a sword.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2538"></child>
+        </children>
+    </item>
+    <item nodeId="node-2538">
+        <command xml:space="preserve">take sword</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2539"></child>
+        </children>
+    </item>
+    <item nodeId="node-2539">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2540"></child>
+        </children>
+    </item>
+    <item nodeId="node-2540">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2541"></child>
+        </children>
+    </item>
+    <item nodeId="node-2541">
+        <command xml:space="preserve">sw</command>
+        <result xml:space="preserve">
+East Hallway
+The east hall. West of here is the west hallway. South is Kelly's bedroom and northeast is the storage room. Go east to go back to the living room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2542"></child>
+        </children>
+    </item>
+    <item nodeId="node-2542">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+West Hallway
+The west hallway. East of here is the east hallway. South is your grandparent's room and north is your room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2543"></child>
+        </children>
+    </item>
+    <item nodeId="node-2543">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Grandparent's Room
+Your grandparent's room. What more can I say about it. Northwest is their closet. North is the west hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2544"></child>
+        </children>
+    </item>
+    <item nodeId="node-2544">
+        <command xml:space="preserve">nw</command>
+        <result xml:space="preserve">
+Grandparent's Closet
+There's just a lot of clothes here. But there also seems to be a chest. Southeast is the way back.
+
+You can see a chest (closed) here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2545"></child>
+        </children>
+    </item>
+    <item nodeId="node-2545">
+        <command xml:space="preserve">unlock chest with key</command>
+        <result xml:space="preserve">You unlock the chest.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2546"></child>
+        </children>
+    </item>
+    <item nodeId="node-2546">
+        <command xml:space="preserve">open chest</command>
+        <result xml:space="preserve">You open the chest, revealing a book.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2547"></child>
+        </children>
+    </item>
+    <item nodeId="node-2547">
+        <command xml:space="preserve">x book</command>
+        <result xml:space="preserve">Pay...ATTENTION...To..THE..INSIDE
+
+The book feels a little heavy.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2548"></child>
+        </children>
+    </item>
+    <item nodeId="node-2548">
+        <command xml:space="preserve">take door key</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2549"></child>
+        </children>
+    </item>
+    <item nodeId="node-2549">
+        <command xml:space="preserve">se</command>
+        <result xml:space="preserve">
+Grandparent's Room
+Your grandparent's room. What more can I say about it. Northwest is their closet. North is the west hallway.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2550"></child>
+        </children>
+    </item>
+    <item nodeId="node-2550">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+West Hallway
+The west hallway. East of here is the east hallway. South is your grandparent's room and north is your room.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2551"></child>
+        </children>
+    </item>
+    <item nodeId="node-2551">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Jackie's Room
+You can see a Wooden Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2552"></child>
+        </children>
+    </item>
+    <item nodeId="node-2552">
+        <command xml:space="preserve">unlock wooden door with door key</command>
+        <result xml:space="preserve">You unlock the Wooden Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2553"></child>
+        </children>
+    </item>
+    <item nodeId="node-2553">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">(first opening the Wooden Door)
+
+backyard
+You can see a Wooden Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2554"></child>
+        </children>
+    </item>
+    <item nodeId="node-2554">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+AlienSpaceshipInterior
+You enter the ship to be amazed by the technology developed by the aliens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2555"></child>
+        </children>
+    </item>
+    <item nodeId="node-2555">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Alien Kitchen.
+There's a lot of high tech mumbo jumbo everywhere. I think there is some sort of person here.
+
+You can see an Alien here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2556"></child>
+        </children>
+    </item>
+    <item nodeId="node-2556">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2557"></child>
+        </children>
+    </item>
+    <item nodeId="node-2557">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2558"></child>
+        </children>
+    </item>
+    <item nodeId="node-2558">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2559"></child>
+        </children>
+    </item>
+    <item nodeId="node-2559">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+AlienSpaceshipInterior
+You enter the ship to be amazed by the technology developed by the aliens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2560"></child>
+        </children>
+    </item>
+    <item nodeId="node-2560">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Alien Kitchen.
+There's a lot of high tech mumbo jumbo everywhere. I think there is some sort of person here.
+
+You can see an Alien here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2561"></child>
+        </children>
+    </item>
+    <item nodeId="node-2561">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2562"></child>
+        </children>
+    </item>
+    <item nodeId="node-2562">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+AlienSpaceshipInterior
+You enter the ship to be amazed by the technology developed by the aliens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2563"></child>
+        </children>
+    </item>
+    <item nodeId="node-2563">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Power Glove Room
+There's a lot of power gloves but they all seem to be frozen in place. But one of them looks like they aren't.
+
+You can see Power glove here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2564"></child>
+        </children>
+    </item>
+    <item nodeId="node-2564">
+        <command xml:space="preserve">take power glove</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2565"></child>
+        </children>
+    </item>
+    <item nodeId="node-2565">
+        <command xml:space="preserve">wear power glove</command>
+        <result xml:space="preserve">You put on Power glove.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2566"></child>
+        </children>
+    </item>
+    <item nodeId="node-2566">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Library
+Alien books filled the room. There doesn't seem to be anyone here.
+
+You can see Bookcase here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2567"></child>
+        </children>
+    </item>
+    <item nodeId="node-2567">
+        <command xml:space="preserve">push bookcase to Alien living room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2568"></child>
+        </children>
+    </item>
+    <item nodeId="node-2568">
+        <command xml:space="preserve">push Bookcase to</command>
+        <result xml:space="preserve">What do you want to push Bookcase to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2569"></child>
+        </children>
+    </item>
+    <item nodeId="node-2569">
+        <command xml:space="preserve">alien living room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2570"></child>
+        </children>
+    </item>
+    <item nodeId="node-2570">
+        <command xml:space="preserve">Alien Living Room</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2571"></child>
+        </children>
+    </item>
+    <item nodeId="node-2571">
+        <command xml:space="preserve">push bookcase to</command>
+        <result xml:space="preserve">What do you want to push Bookcase to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2572"></child>
+        </children>
+    </item>
+    <item nodeId="node-2572">
+        <command xml:space="preserve">AlienLivingRoom</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2573"></child>
+        </children>
+    </item>
+    <item nodeId="node-2573">
+        <command xml:space="preserve">push bookcase to</command>
+        <result xml:space="preserve">What do you want to push Bookcase to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2574"></child>
+        </children>
+    </item>
+    <item nodeId="node-2574">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2575"></child>
+        </children>
+    </item>
+    <item nodeId="node-2575">
+        <command xml:space="preserve">push book case to alien living room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2576"></child>
+        </children>
+    </item>
+    <item nodeId="node-2576">
+        <command xml:space="preserve">push bookcase to alien living room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2577"></child>
+        </children>
+    </item>
+    <item nodeId="node-2577">
+        <command xml:space="preserve">push Bookcase to Alien Living Room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2750"></child>
+        </children>
+    </item>
+    <item nodeId="node-2750">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Library
+Alien books filled the room. There doesn't seem to be anyone here.
+
+You can see Bookcase here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2751"></child>
+        </children>
+    </item>
+    <item nodeId="node-2751">
+        <command xml:space="preserve">push bookcase to alien living room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2752"></child>
+        </children>
+    </item>
+    <item nodeId="node-2752">
+        <command xml:space="preserve">push bookcase to power glove room</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2799"></child>
+        </children>
+    </item>
+    <item nodeId="node-2799">
+        <command xml:space="preserve">loo</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2800"></child>
+        </children>
+    </item>
+    <item nodeId="node-2800">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Library
+Alien books filled the room. There doesn't seem to be anyone here.
+
+You can see Bookcase here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2801"></child>
+        </children>
+    </item>
+    <item nodeId="node-2801">
+        <command xml:space="preserve">push bookcase south</command>
+        <result xml:space="preserve">You push Bookcase south to Power Glove Room.
+
+Power Glove Room
+There's a lot of power gloves but they all seem to be frozen in place. But one of them looks like they aren't.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2802"></child>
+        </children>
+    </item>
+    <item nodeId="node-2802">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2803"></child>
+        </children>
+    </item>
+    <item nodeId="node-2803">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+AlienSpaceshipInterior
+You enter the ship to be amazed by the technology developed by the aliens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2804"></child>
+        </children>
+    </item>
+    <item nodeId="node-2804">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">AlienSpaceshipInterior
+You enter the ship to be amazed by the technology developed by the aliens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2805"></child>
+        </children>
+    </item>
+    <item nodeId="node-2805">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Alien Kitchen.
+There's a lot of high tech mumbo jumbo everywhere. I think there is some sort of person here.
+
+You can see an Alien here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2806"></child>
+        </children>
+    </item>
+    <item nodeId="node-2806">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2807"></child>
+        </children>
+    </item>
+    <item nodeId="node-2807">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2808"></child>
+        </children>
+    </item>
+    <item nodeId="node-2808">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+AlienSpaceshipInterior
+You enter the ship to be amazed by the technology developed by the aliens.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2809"></child>
+        </children>
+    </item>
+    <item nodeId="node-2809">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Power Glove Room
+There's a lot of power gloves but they all seem to be frozen in place. But one of them looks like they aren't.
+
+You can see Bookcase here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2810"></child>
+        </children>
+    </item>
+    <item nodeId="node-2810">
+        <command xml:space="preserve">push bookcase ne</command>
+        <result xml:space="preserve">You push Bookcase northeast to Alien Living Room.
+
+Alien Living Room
+High tech stuff everywhere. I can't tell what everything is.
+
+You can see Dining table here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2811"></child>
+        </children>
+    </item>
+    <item nodeId="node-2811">
+        <command xml:space="preserve">push dining table sw</command>
+        <result xml:space="preserve">You push Dining table southwest to Power Glove Room.
+
+Power Glove Room
+There's a lot of power gloves but they all seem to be frozen in place. But one of them looks like they aren't.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2812"></child>
+        </children>
+    </item>
+    <item nodeId="node-2812">
+        <command xml:space="preserve">push dining table nw</command>
+        <result xml:space="preserve">You push Dining table northwest to Alien Living Quarters.
+
+Alien Living Quarters
+Your normal alien living quarters. Very high tech. Even the bed.
+
+You can see Bed here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2813"></child>
+        </children>
+    </item>
+    <item nodeId="node-2813">
+        <command xml:space="preserve">push bed se</command>
+        <result xml:space="preserve">You push Bed southeast to Power Glove Room.
+
+Power Glove Room
+There's a lot of power gloves but they all seem to be frozen in place. But one of them looks like they aren't.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2814"></child>
+        </children>
+    </item>
+    <item nodeId="node-2814">
+        <command xml:space="preserve">push bed n</command>
+        <result xml:space="preserve">You push Bed north to Library.
+
+Library
+Alien books filled the room. There doesn't seem to be anyone here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2815"></child>
+        </children>
+    </item>
+    <item nodeId="node-2815">
+        <command xml:space="preserve">look</command>
+        <result xml:space="preserve">Library
+Alien books filled the room. There doesn't seem to be anyone here.
+
+You can see Bed and a Secret Door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2816"></child>
+        </children>
+    </item>
+    <item nodeId="node-2816">
+        <command xml:space="preserve">open secret door</command>
+        <result xml:space="preserve">You open the Secret Door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2817"></child>
+        </children>
+    </item>
+    <item nodeId="node-2817">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">
+Hidden Room
+You can see a Secret Door and Final door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2883"></child>
+        </children>
+    </item>
+    <item nodeId="node-2883">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">(first opening Final door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2884"></child>
+        </children>
+    </item>
+    <item nodeId="node-2884">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">(first opening Final door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2885"></child>
+        </children>
+    </item>
+    <item nodeId="node-2885">
+        <command xml:space="preserve">open final door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2886"></child>
+        </children>
+    </item>
+    <item nodeId="node-2886">
+        <command xml:space="preserve">snail</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2887"></child>
+        </children>
+    </item>
+    <item nodeId="node-2887">
+        <command xml:space="preserve">cast spell</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2888"></child>
+        </children>
+    </item>
+    <item nodeId="node-2888">
+        <command xml:space="preserve">cast snail</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2960"></child>
+        </children>
+    </item>
+    <item nodeId="node-2960">
+        <command xml:space="preserve">say snail</command>
+        <result xml:space="preserve">(to yourself)
+There is no reply.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3177"></child>
+        </children>
+    </item>
+    <item nodeId="node-3177">
+        <command xml:space="preserve">a snail</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3178"></child>
+        </children>
+    </item>
+    <item nodeId="node-3178">
+        <command xml:space="preserve">cast a snail</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-3179"></child>
+        </children>
+    </item>
+    <item nodeId="node-3179">
+        <command xml:space="preserve">cast snail</command>
+        <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
