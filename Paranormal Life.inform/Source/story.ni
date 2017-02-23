@@ -3,21 +3,21 @@
 When play begins:
 	say "You seem to notice some things are out of place so you decide to investigate. You find out that aliens have invaded and have locked you i your house. You need to find a way to get out and stop them! Hint: the second key can be door key or key2."
 	
-LivingRoom is a room. The printed name of LivingRoom is "Living Room"
+LivingRoom is a room. The description is "Your normal living room. The walls are adorned by art. West of the living room is the east hallway." The printed name of LivingRoom is "Living Room" 
 
-EastHallway is west of LivingRoom. The printed name of EastHallway is "East Hallway"
+EastHallway is west of LivingRoom. The description is "The east hall. West of here is the west hallway. South is Kelly's bedroom and northeast is the storage room. Go east to go back to the living room." The printed name of EastHallway is "East Hallway"
 
-WestHallway is west of EastHallway. The printed name of WestHallway is "West Hallway"
+WestHallway is west of EastHallway. The description is "The west hallway. East of here is the east hallway. South is your grandparent's room and north is your room."  The printed name of WestHallway is "West Hallway"
 
-StorageRoom is northeast of EastHallway. The printed name of StorageRoom is "Storage Room"
+StorageRoom is northeast of EastHallway. The description is "There's loads of stuff here. You notice a trapdoor and something shiny. Southwest is the east hallway." The printed name of StorageRoom is "Storage Room"
 
-Kelly'sBedroom is south of EastHallway. The printed name of Kelly'sBedroom is "Kelly's Bedroom"
+Kelly'sBedroom is south of EastHallway. The description is "The wall are adorned by giant anime posters. There doesn't seem to be anything of use." The printed name of Kelly'sBedroom is "Kelly's Bedroom"
 
 There is a desk in Kelly'sBedroom. The desk is a container. It is closed and fixed in place. 
 
-Grandparent'sRoom is south of WestHallway. The printed name of Grandparent'sRoom is "Grandparent's Room"
+Grandparent'sRoom is south of WestHallway. The description is "Your grandparent's room. What more can I say about it. Northwest is their closet. North is the west hallway." The printed name of Grandparent'sRoom is "Grandparent's Room"
 
-Grandparent'sCloset is northwest of Grandparent'sRoom. The printed name of Grandparent'sCloset is "Grandparent's Closet" 
+Grandparent'sCloset is northwest of Grandparent'sRoom. The description is "There's just a lot of clothes here. But there also seems to be a chest. Southeast is the way back." The printed name of Grandparent'sCloset is "Grandparent's Closet" 
 
 A chest is in Grandparent'sCloset. It is a container. It is locked and fixed in place.. It is closed and openable. The key unlocks the chest.
 
@@ -45,18 +45,18 @@ Jackie'sRoom is north of WestHallway. The printed name of Jackie'sRoom is "Jacki
 
 
 Instead of going to backyard when the player does not have sword:
-		move player to livingroom;
+		stop the action;
 		say "You feel scared without a weapon. You head back to the living room."
 		
 After entering the backyard:
 	say "You feel good fighting off aliens and monsters. You manage to make it to a safe place alive. You also manage to find out there's a spaceship nearby. "
 
 
-AlienSpaceshipInterior is west of backyard. The printed name of AlienSpaceship is "Alien Spaceship Interior" 
+AlienSpaceshipInterior is west of backyard. The description is "You enter the ship to be amazed by the technology developed by the aliens." The printed name of AlienSpaceship is "Alien Spaceship Interior" 
 
 Power glove is in PowerGloveRoom. It is a wearable thing. 
 
-AlienKitchen is north of AlienSpaceshipInterior. The printed name of AlienKitchen is "Alien Kitchen." 
+AlienKitchen is north of AlienSpaceshipInterior. The description is "There's a lot of high tech mumbo jumbo everywhere. I think there is some sort of person here." The printed name of AlienKitchen is "Alien Kitchen." 
 
 a Alien is a male animal in the AlienKitchen. The description of the Alien is "A confused alien muttering to themselves in their language. It seems like they're holding two slices of bread."
 
@@ -81,7 +81,7 @@ Every turn rule:
 
 Note is in alien's inventory.
 		
-The description of the note is "First you find the power glove. That is the only way to move the things. The second clue is that you need combine things to unlock the door. Lastly, there are 3 keys you need to find in order to progress to get the last key. The three keys that you get from the puzzles will unlock the final passage to the button. The button will stop the aliens from invading and wipe them out."
+The description of the note is "First you find the power glove. That is the only way to move the things. Then, there is a riddle that you ust figure out to proceed. Figuring this out will unlock the final passage to the button. The button will stop the aliens from invading and wipe them out."
 
 PowerGloveRoom is west of AlienSpaceshipinterior. The printed name is "Power Glove Room"
 

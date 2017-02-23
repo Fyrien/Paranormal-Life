@@ -11,9 +11,10 @@ You seem to notice some things are out of place so you decide to investigate. Yo
 
 Paranormal Life
 An Interactive Fiction by Jackie Wu
-Release 1 / Serial number 170222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170223 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Living Room
+Your normal living room. The walls are adorned by art. West of the living room is the east hallway.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -25,6 +26,7 @@ Living Room
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 East Hallway
+The east hall. West of here is the west hallway. South is Kelly's bedroom and northeast is the storage room. Go east to go back to the living room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1083,6 +1085,8 @@ That's fixed in place.
         <command xml:space="preserve">ne</command>
         <result xml:space="preserve">
 Storage Room
+There's loads of stuff here. You notice a trapdoor and something shiny. Southwest is the east hallway.
+
 You can see a key and a trapdoor (closed) here.
 
 &gt;</result>
@@ -1130,6 +1134,7 @@ You can see a key and a trapdoor (closed) here.
         <command xml:space="preserve">sw</command>
         <result xml:space="preserve">
 East Hallway
+The east hall. West of here is the west hallway. South is Kelly's bedroom and northeast is the storage room. Go east to go back to the living room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1140,6 +1145,7 @@ East Hallway
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 West Hallway
+The west hallway. East of here is the east hallway. South is your grandparent's room and north is your room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1246,6 +1252,7 @@ Grandparent's Room
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 West Hallway
+The west hallway. East of here is the east hallway. South is your grandparent's room and north is your room.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
