@@ -52,7 +52,7 @@ After entering the backyard:
 	say "You feel good fighting off aliens and monsters. You manage to make it to a safe place alive. You also manage to find out there's a spaceship nearby. "
 
 
-AlienSpaceshipInterior is west of backyard. The description is "You enter the ship to be amazed by the technology developed by the aliens." The printed name of AlienSpaceship is "Alien Spaceship Interior" 
+AlienSpaceshipInterior is west of backyard. The description is "You enter the ship to be amazed by the technology developed by the aliens. East is the backyard, North is the alien kitchen." The printed name of AlienSpaceship is "Alien Spaceship Interior" 
 
 Power glove is in PowerGloveRoom. It is a wearable thing. 
 
@@ -61,7 +61,7 @@ AlienKitchen is north of AlienSpaceshipInterior. The description is "There's a l
 a Alien is a male animal in the AlienKitchen. The description of the Alien is "A confused alien muttering to themselves in their language. It seems like they're holding two slices of bread."
 
 After examining alien:
-	say "I don't think that person knows how sandwiches work. They say if you find them a sandwich, he'll give you hints on upcoming puzzles. There may have been one in the house... ";
+	say "I don't think that person knows how sandwiches work. They say if you find them a sandwich, he'll give you hints on upcoming puzzles and the last key. There may have been one in the house... ";
 	now sandwich is described.
 	
 Sandwich is in livingroom. It is undescribed.
@@ -70,7 +70,7 @@ Sandwich is in livingroom. It is undescribed.
 Rule for deciding whether all includes something: it does not.
 
 
-Instead of giving the sandwich to alien: say "You hand the sandwich over to the alien. He makes a weird garble sound. It sounded like he thanked you. He pulls out a note, and a key, and hands you the note. You feel good about yourself because you helped someone out.";
+Instead of giving the sandwich to alien: say "You hand the sandwich over to the alien. He makes a weird garble sound. It sounded like he thanked you. He pulls out a note, and a key, and hands you the note and key. You feel good about yourself because you helped someone out.";
 remove sandwich from play;
 move note to player;
 move final key to player.
@@ -83,17 +83,17 @@ Every turn rule:
 
 Note is in alien's inventory.
 		
-The description of the note is "First you find the power glove. That is the only way to move the things. Then, there is a riddle that you ust figure out to proceed. Figuring this out will unlock the final passage to the button. The button will stop the aliens from invading and wipe them out."
+The description of the note is "First, you find the power glove. That is the only way to move the things. Then, there is a key that I have just given you. Figuring this out will unlock the final passage to the button. The button will stop the aliens from invading and wipe them out."
 
-PowerGloveRoom is west of AlienSpaceshipinterior. The description is "There's a lot of power gloves but they all seem to be frozen in place. But one of them looks like they aren't." The printed name is "Power Glove Room"
+PowerGloveRoom is west of AlienSpaceshipinterior. The description is "There's a lot of power gloves but they all seem to be frozen in place. But one of them looks like they aren't. North is the library, Northwest is the Alien Living Quarters, Northeast is the Alien Living Room." The printed name is "Power Glove Room"
 
 The description of the Power Glove is "The power glove surges with strength. You should probably take it."
 
-Library is north of the PowerGloveRoom. The description is "Alien books filled the room. There doesn't seem to be anyone here."
+Library is north of the PowerGloveRoom. The description is "Alien books filled the room. There doesn't seem to be anyone here. South of here is the Power Glove Room."
 
-AlienLivingRoom is northeast of the PowerGloveRoom. The description is "High tech stuff everywhere. I can't tell what everything is." The printed name is "Alien Living Room"
+AlienLivingRoom is northeast of the PowerGloveRoom. The description is "High tech stuff everywhere. I can't tell what everything is. Southwest of here is the Power Glove Room." The printed name is "Alien Living Room"
 
-AlienLivingQuarters is northwest of the PowerGloveRoom. The description is "Your normal alien living quarters. Very high tech. Even the bed." The printed name is "Alien Living Quarters"
+AlienLivingQuarters is northwest of the PowerGloveRoom. The description is "Your normal alien living quarters. Very high tech. Even the bed. Southeast from here is the Power Glove Room." The printed name is "Alien Living Quarters"
 
 Bed is in AlienLivingQuarters. It is a thing. Bed is pushable between rooms.
 
@@ -144,19 +144,21 @@ The description of the sword is "A long katana like sword. It looks pretty sharp
 
 The description of the desk is "Very wooden. Very real. Nothing strange here. Move on."
 
-[Take sandwich, West, north east, open trapdoor, take sword, take key, south west, west, south, north west, unlock chest with key, open chest, take door key, south east, north, north, unlock wooden door with door key, north, west, west, take power glove, wear power glove, north, open secret door, north, unlock final door with final key ]
-
 
 Final door is north of the hiddenroom and south of the AlienCockpit. It is locked. Final door is a door. The final key unlocks the Final door.
 
-
+The description of the hiddenroom is "There seems to be one last door. But it's locked. Maybe the alien you met can help. South is the Library."
 The printed name of Hiddenroom is "Hidden Room"
 
-After entering AlienCockPit:
-	say "You see the switch to stop orders to take over earth. Quickly, you flick the switch. Big red words appear on the glass of the cock pit saying things in an alien language. It's over...";
-	end the story finally.
+an every turn rule:
+	If player is in AlienCockpit:
+		say "You see the switch to stop orders to take over earth. Quickly, you flick the switch. Big red words appear on the glass of the cock pit saying things in an alien language. It's over...";
+		end the story finally.
+
+The description of the backyard is "Just a normal backyard...with some alien life forms. South of here is your room. West is inside the space ship."
 
 
+[Take sandwich, West, north east, open trapdoor, take sword, take key, south west, west, south, north west, unlock chest with key, open chest, take door key, south east, north, north, unlock wooden door with door key, north, west, north, give sandwich to alien, south, west, take power glove, wear power glove, north, push bookcase s, push bookcase ne, push dining table sw, push dining table nw, push bed se, push bed n, open secret door, north, unlock final door with final key, north ]
 
 
 
