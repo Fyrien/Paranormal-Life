@@ -8,16 +8,17 @@
         <bibliographic>
             <title>Paranormal Life</title>
             <author>Jackie Wu</author>
-            <headline>An Interactive Fiction</headline>
-            <genre>Fiction</genre>
+            <headline>Aliens Invade!</headline>
+            <genre>Adventure</genre>
             <firstpublished>2017</firstpublished>
+            <description>Extraterrestrials come to take over.</description>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2017-02-23</releasedate>
+                    <releasedate>2017-02-27</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6M62</compilerversion>
@@ -27,10 +28,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6M62</generatorversion>
-            <originated>2017-02-23</originated>
+            <originated>2017-02-27</originated>
         </colophon>
         <glulx>
-            <serial>170223</serial>
+            <serial>170227</serial>
             <release>1</release>
             <compiler>Inform 7 build 6M62</compiler>
         </glulx>

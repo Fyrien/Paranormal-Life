@@ -1,7 +1,10 @@
 "Paranormal Life" by Jackie Wu
 
+The release number is 1. The story creation year is 2017. The story headline is "Aliens Invade!". The story genre is "Adventure". The story description is "Extraterrestrials come to take over.".
+Release along with an interpreter.
+
 When play begins:
-	say "You seem to notice some things are out of place so you decide to investigate. You find out that aliens have invaded and have locked you i your house. You need to find a way to get out and stop them! Hint: the second key can be door key or key2."
+	say "You seem to notice some things are out of place so you decide to investigate. You find out that aliens have invaded and have locked you in your house. You need to find a way to get out and stop them! Hint: the second key can be door key or key2."
 	
 LivingRoom is a room. The description is "Your normal living room. The walls are adorned by art. West of the living room is the east hallway." The printed name of LivingRoom is "Living Room" 
 
@@ -83,11 +86,11 @@ Every turn rule:
 
 Note is in alien's inventory.
 		
-The description of the note is "First, you find the power glove. That is the only way to move the things. Then, there is a key that I have just given you. Figuring this out will unlock the final passage to the button. The button will stop the aliens from invading and wipe them out."
+The description of the note is "First, you must find the power glove and put them on. That is the only way to move the things. Then, there is a key that I have just given you. This key unlocks the final door. After you aquire the glove, you must head into the rooms above the Power Glove Room. Each room needs a specific item to pass. The library wants a place to sleep, the alien living room wants a place to put their books. And the alien living quarters want a place to eat. Move objects by entering the command 'Push 'Object' 'Direction''. Ignore the ' when putting in commands. After doing it correctly, a passage should have opened up in the library. Good luck human. It's up to you to stop them."
 
 PowerGloveRoom is west of AlienSpaceshipinterior. The description is "There's a lot of power gloves but they all seem to be frozen in place. But one of them looks like they aren't. North is the library, Northwest is the Alien Living Quarters, Northeast is the Alien Living Room." The printed name is "Power Glove Room"
 
-The description of the Power Glove is "The power glove surges with strength. You should probably take it."
+The description of the Power Glove is "The power glove surges with strength."
 
 Library is north of the PowerGloveRoom. The description is "Alien books filled the room. There doesn't seem to be anyone here. South of here is the Power Glove Room."
 
@@ -136,7 +139,7 @@ The description of the Dining table is "Pure steel. It seems really heavy. I won
 
 The description of the sandwich is "The best sandwich you could ever eat. Whole grain and loaded with meats."
 
-The description of the key is "A brass key. It's pretty light."
+The description of the key is "A brass key. It's pretty light. This unlocks the chest. "
 
 The description of the door key is "A door key. What more to it?"
 
@@ -144,10 +147,12 @@ The description of the sword is "A long katana like sword. It looks pretty sharp
 
 The description of the desk is "Very wooden. Very real. Nothing strange here. Move on."
 
+Dining table is fixed in place. Bookcase is fixed in place. Bed is fixed in place.
 
 Final door is north of the hiddenroom and south of the AlienCockpit. It is locked. Final door is a door. The final key unlocks the Final door.
 
-The description of the hiddenroom is "There seems to be one last door. But it's locked. Maybe the alien you met can help. South is the Library."
+The description of the hiddenroom is "There seems to be one last door. But it's locked. You remember the alien gave you a key. You should check your inventory."
+
 The printed name of Hiddenroom is "Hidden Room"
 
 an every turn rule:
@@ -157,6 +162,29 @@ an every turn rule:
 
 The description of the backyard is "Just a normal backyard...with some alien life forms. South of here is your room. West is inside the space ship."
 
+Art is scenery in LivingRoom. The description is "You look at the drawings and painting and you remember how you got them at a garage sale. The way the brush stroke make the painting pop made you realize you can't pull that off."
+
+Anime Posters is scenery in Kelly'sBedroom. The description is "Posters from Hunter X Hunter and Gravitation. You think to yourself that you should watch anime again."
+
+Understand "posters" as anime posters. 
+
+The description of key2 is "A heavier key than the first. Why was the key hidden in the book though? This unlocks the wooden door."
+
+The description of final key is "The final key. It unlocks the final door."
+
+Clothes is scenery in grandparent'scloset. The description is "Normal clothes. A lot more jackets than anything else though." 
+
+aliens is scenery in backyard. The description is "Weird head shape and looks slimy. Eugh. Creepy."
+
+Bread is scenery in Alienkitchen. The description is "Whole wheat bread. This alien is pretty healthy." 
+
+Instead of taking bread:
+	say "The Alien wouldn't be that happy would he.";
+	Stop the action.
+	
+The description of the final door is "The very final door. The button shoud be behind this door."
+
+The description of the player is "A somewhat tall, skinny boy. I wouldn't necessarily call myself handsome. I'm wear a t-shirt and jeans." 
 
 [Take sandwich, West, north east, open trapdoor, take sword, take key, south west, west, south, north west, unlock chest with key, open chest, take door key, south east, north, north, unlock wooden door with door key, north, west, north, give sandwich to alien, south, west, take power glove, wear power glove, north, push bookcase s, push bookcase ne, push dining table sw, push dining table nw, push bed se, push bed n, open secret door, north, unlock final door with final key, north ]
 
