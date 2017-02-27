@@ -184,7 +184,7 @@ Instead of taking bread:
 	
 The description of the final door is "The very final door. The button shoud be behind this door."
 
-The description of the player is "A somewhat tall, skinny boy. I wouldn't necessarily call myself handsome. I'm wear a t-shirt and jeans." 
+The description of the player is "A somewhat tall, skinny boy. I wouldn't necessarily call myself handsome. I'm wearing a t-shirt and jeans." 
 
 [Take sandwich, West, north east, open trapdoor, take sword, take key, south west, west, south, north west, unlock chest with key, open chest, take door key, south east, north, north, unlock wooden door with door key, north, west, north, give sandwich to alien, south, west, take power glove, wear power glove, north, push bookcase s, push bookcase ne, push dining table sw, push dining table nw, push bed se, push bed n, open secret door, north, unlock final door with final key, north ]
 
