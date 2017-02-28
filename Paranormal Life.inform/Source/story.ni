@@ -39,8 +39,11 @@ After examining book:
 		say "The book feels a little heavy."
 
 		
-A key2 is in the book. A key2 is undescribed. Understand "Door Key" as key2.
+A key2 is in the book. key2 is undescribed. Understand "Door Key" as key2.
 			
+Walls is scenery in livingroom. The description is "The wall. What else is there. Oh wait, there's paintings." 
+
+The description of Jackie'sRoom is "North of here is the wooden door."
 
 The Wooden Door is north of Jackie'sRoom and south of the backyard. The wooden door is a door. The Wooden Door is locked. A key2 unlocks the wooden door.
 
@@ -51,15 +54,12 @@ Instead of going to backyard when the player does not have sword:
 		stop the action;
 		say "You feel scared without a weapon. You head back to the living room."
 		
-After entering the backyard:
-	say "You feel good fighting off aliens and monsters. You manage to make it to a safe place alive. You also manage to find out there's a spaceship nearby. "
 
-
-AlienSpaceshipInterior is west of backyard. The description is "You enter the ship to be amazed by the technology developed by the aliens. East is the backyard, North is the alien kitchen." The printed name of AlienSpaceship is "Alien Spaceship Interior" 
+AlienSpaceshipInterior is west of backyard. The description is "You enter the ship to be amazed by the technology developed by the aliens. East is the backyard, North is the alien kitchen. West is the Power Glove Room." The printed name of AlienSpaceshipInterior is "Alien Spaceship Interior" 
 
 Power glove is in PowerGloveRoom. It is a wearable thing. 
 
-AlienKitchen is north of AlienSpaceshipInterior. The description is "There's a lot of high tech mumbo jumbo everywhere. I think there is some sort of person here." The printed name of AlienKitchen is "Alien Kitchen." 
+AlienKitchen is north of AlienSpaceshipInterior. The description is "There's a lot of high tech mumbo jumbo everywhere. I think there is some sort of person here. South is the Alien Space Ship Interior." The printed name of AlienKitchen is "Alien Kitchen." 
 
 a Alien is a male animal in the AlienKitchen. The description of the Alien is "A confused alien muttering to themselves in their language. It seems like they're holding two slices of bread."
 
@@ -160,9 +160,9 @@ an every turn rule:
 		say "You see the switch to stop orders to take over earth. Quickly, you flick the switch. Big red words appear on the glass of the cock pit saying things in an alien language. It's over...";
 		end the story finally.
 
-The description of the backyard is "Just a normal backyard...with some alien life forms. South of here is your room. West is inside the space ship."
+The description of the backyard is "Just a normal backyard...with some alien life forms and a massive space ship. South of here is your room. West is inside the space ship."
 
-Art is scenery in LivingRoom. The description is "You look at the drawings and painting and you remember how you got them at a garage sale. The way the brush stroke make the painting pop made you realize you can't pull that off."
+Art is scenery in LivingRoom. The description is "You look at the drawings and painting and you remember how you got them at a garage sale."
 
 Anime Posters is scenery in Kelly'sBedroom. The description is "Posters from Hunter X Hunter and Gravitation. You think to yourself that you should watch anime again."
 
@@ -186,7 +186,40 @@ The description of the final door is "The very final door. The button shoud be b
 
 The description of the player is "A somewhat tall, skinny boy. I wouldn't necessarily call myself handsome. I'm wearing a t-shirt and jeans." 
 
-[Take sandwich, West, north east, open trapdoor, take sword, take key, south west, west, south, north west, unlock chest with key, open chest, take door key, south east, north, north, unlock wooden door with door key, north, west, north, give sandwich to alien, south, west, take power glove, wear power glove, north, push bookcase s, push bookcase ne, push dining table sw, push dining table nw, push bed se, push bed n, open secret door, north, unlock final door with final key, north ]
+Understand "last door" as final door. Understand "last key" as final key.
+
+
+[Take sandwich,
+ West,
+ north east, 
+open trapdoor, 
+take sword, 
+take key, 
+south west, 
+west, south, 
+north west, 
+unlock chest with key, 
+open chest, 
+take door key, 
+south east, 
+north, 
+north, unlock wooden door with door key, 
+north, 
+west, 
+north, 
+give sandwich to alien, 
+south, 
+west, 
+take power glove, 
+wear power glove, 
+north, push bookcase s, 
+push bookcase ne, 
+push dining table sw, 
+push dining table nw, 
+push bed se, push bed n, 
+open secret door, north, 
+unlock final door with final key, 
+north ]
 
 
 
